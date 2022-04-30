@@ -1,0 +1,32 @@
+.introtitle {
+
+text-align: center;
+font-family: Tahoma, Helvetica, sans-serif;
+
+}
+
+  )
+
+a:link {
+  text-decoration: none;
+  font-family: Tahoma, Helvetica, sans-serif;
+  color: tomato;
+}
+
+a:visited {
+  text-decoration: none;
+  font-family: Tahoma, Helvetica, sans-serif;
+  color: tomato;
+}
+
+a:hover {
+  text-decoration: underline;
+  font-family: Tahoma, Helvetica, sans-serif;
+  color: tomato;
+}
+
+a:active {
+  text-decoration: none;
+  font-family: Tahoma, Helvetica, sans-serif;
+  color: tomato;
+}
