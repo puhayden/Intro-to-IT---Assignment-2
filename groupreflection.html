@@ -53,6 +53,21 @@
 
      </div>
 
+     <script>
+ window.onscroll = function() {myFunction()};
+
+ var navbar = document.getElementById("navbar");
+ var sticky = navbar.offsetTop;
+
+ function myFunction() {
+   if (window.pageYOffset >= sticky) {
+     navbar.classList.add("sticky")
+   } else {
+     navbar.classList.remove("sticky");
+   }
+ }
+ </script>
+
 <h4 style="font-size:30px"><strong>Individual Group Reflections</strong></h4>
 <!-- CHALANI REFLECTION -->
 <ul><li>
