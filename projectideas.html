@@ -38,6 +38,20 @@
       color: white;
     }
 
+    .content {
+padding: 16px;
+}
+
+.sticky {
+position: fixed;
+top: 0;
+width: 100%;
+}
+
+.sticky + .content {
+padding-top: 60px;
+}
+
     </style>
 
     <div id="navbar">
@@ -69,7 +83,7 @@ function myFunction() {
 }
 </script>
 
-    <h2><u>Overview<u></h2>
+    <h2><u>Overview</u></h2>
     <p> Our project concept is an app called ‘Downstream’. Our app allows a user to collate and access all of their separate streaming accounts from a single platform. While the app would not be able to host all of the separate platforms different shows and movies on the same page due to legal reasons, it would act in a similar manner to the Wallet app on iPhone where you can easily select what service you wish to access at any given time and then would open the desired streaming service within the application for easy access. Downstream will rely on API integration to host streaming platforms within its framework. This app will be targeted towards Australians who indulge in multiple streaming services platforms and those who are generally  interested in the entertainment industry through these platforms. ‘Downstream’ will be available for all Australians as it is an Australian based application and there are legal implications that constrict the globalisation of ‘Downstream’. Ultimately, this app will collate the data from several other existing streaming services for easy access, availability and relevant  information for the users.
     </p>
 
@@ -77,12 +91,12 @@ function myFunction() {
     <p>In the Australian market there exists no similar applications or conceivable competitors. Our choice to remain local rather than create an internationally available application could potentially be reconsidered post launch. But the complexities of trying to navigate various countries differing laws regarding copyright and licensing would provide too many problems. Not only would it make it more simple to ensure our application was legally viable, but we would be entering a market without any existing competition, ensuring that Downstream has a better chance of attracting new users.
     </p>
 
-    <h2><u>Motivation<u></h2>
+    <h2><u>Motivation</u></h2>
 
     <p>Today there are dozens of streaming services that all offer their own unique viewing experiences, from the vast array of titles on platforms such as Netflix or Disney+, to more niche services such as Crunchyroll or Shudder.It is exceedingly common for the  average household to  have multiple streaming subscriptions. Many of our group members utilise 9+ separate streaming platforms and at times struggle to locate which of our services are currently offering the tv show or movie that we intend to watch as well as new ones that interest each of our unique tastes. More frustratingly, platforms regularly rotate their available content in accordance with licensing agreements, so shows that were once accessible on one service may have been removed and picked up by another, as this happens regularly due to Australia’s interesting right ownerships due to Australian companies such as Foxtel, acquiring foreign films that create unique Australian ownership. Which ultimately makes for a frustrating user experience. ‘Downstream’ would seek to remedy this problem and accommodate the fast-growing number of streaming platforms by compiling all of a user’s subscriptions in one place.
     </p>
 
-    <h2><u>Description<u></h2>
+    <h2><u>Description</u></h2>
 
     <p>The primary goal of Downstream is to provide an easy to navigate service that makes it simple for users to locate their desired media quickly. After the initial login page, Downstream will feature four pages within the app for the user to navigate through via a small footer at the bottom of the screen with simple explanative icons.The first page will be ‘Library’, this page will show the user their available streaming hosts in a minimalistic easy to navigate list. The ‘Library’ page will also include a tab for adding additional streaming platforms. Selecting the ‘Add’ button would give users a comprehensive list of streaming hosts and give them the option of selecting their owned services and logging in within a popup window directed to the corresponding streaming host. Upon successfully logging in to the selected third-party streaming host  through  the  popup,  the  service  would be  added  to  the user’s personal Downstream library.The ‘Library’ page will also feature a search function allowing users to quickly search for titles of specific shows or movies and will be provided with relevant results detailing which service hosts  the media, whether it is in the user’s current library and will offer the user a button that will direct them into the corresponding streaming host and to their media.In the case that the user does not have the service in their library, they will be offered to add the relevant host to their existing library.The second page will be the ‘My Lists’ page and will offer users the option of adding media to a list as a reminder for future viewing.The third page will be the ‘Recently Added’ page and will offer a regularly updated list of notifications of titles that have been recently added to hosting services already within the user’s library.The fourth and final page will be the ‘Settings’ page and will offer the user options for account configuration and management, help and contact information for troubleshooting and general app settings.The initial screen will feature a loginWhen first opening the application users will be prompted to create a new account or sign in to an existing one.
     </p>
@@ -93,7 +107,7 @@ function myFunction() {
     <p>Another legal licensing reason, Downstream will not host any of the content from the included third-party streaming hosts and will simply act as a directory and will bridge the gap between third-party streaming platforms and will redirect users to their desired content hosted on the external streaming services.
     </p>
 
-    <h2><u>Tools and Technology<u></h2>
+    <h2><u>Tools and Technology</u></h2>
 
     <p>To create Downstream, we will be using X code,Apple's Integrated development environment (IDE). Xcode is used to develop software for macOS, iOS, iPadOS, watchOS, and tvOS. We will be using the Swift programming language to write the programming for Downstream. Swift is a general-purpose, compiled programming language developed by Apple. Finally, we will be using SwiftUI as the framework for building the application. The useful thing about Xcode, Swift and SwiftUI is that they are essentially the same tools used to create software for all ofApple’s platforms and make iOS app development simpler than other options. We will also need access to an iPhone for native testing as well as a computer for the app’s development.
     </p>
@@ -104,12 +118,12 @@ function myFunction() {
     <p>API’s or Application Programming Interface, “is a software intermediary that allows two applications to talk to each other” (MuleSoft, What is an API?, 2022). API’s will be the central component that Downstream will be built upon. API’s will allow Downstream to act as a hub that can interface with a user’s owned streaming services and to open those services within the framework and interface of Downstream.  So essentially this will allow Downstream to avoid having to acquire any licensing and will still direct traffic to the external streaming hosts without needing the user to navigate away from the Downstream hub. It is an expectation that due to the implementation of API’s and potential advertising utilising the imaging rights of certain streaming services that agreements and licensing rights may need to be acquired and negotiated from streaming services to allow for this to be effective and legal, though due to the fact that Downstream is not a competitor and simply aiming to provide more traffic to these services and act as a sort of index it is unlikely that there would be many complications in achieving this.
     </p>
 
-    <h2><u>Skills Required<u></h2>
+    <h2><u>Skills Required</u></h2>
 
     <p>Skills that are needed will be the ability to  write code utilising Swift, a  programming language that our group members are currently unfamiliar with. But fortunately, due to Swift’s popularity and common use in app development there is an abundance of resources online to teach beginners how to create their first application using Swift. We will also need to design an attractive and functional user interface that allows for a smooth and enjoyable user experience. This will require a degree of creativity and planning to ensure a user-friendlyinterface.In terms of hardware, it does not require a  powerful computer for app development and all of the required software is free. We will also need to implement APIs to allow integration of the existing streaming platforms within the architecture of Downstream. The main barriers to creating Downstream are less about legal barriers and mostly skill gaps and knowledge. As a team we would need to become more accustomed to API integration and understand how to program API’s specific to each streaming service into our application.
     </p>
 
-    <h2><u>Outcome<u></h2>
+    <h2><u>Outcome</u></h2>
 
     <p>The intent behind the creation of Downstream is to bridge the gap between third party streaming platforms and give users a seamless, easy to navigate app that offers a way to find their desired tv show/movie all in one place. The best way to gauge Downstream’s success would be through user  satisfaction. As  a  tool  Downstream is designed to be a quality-of-life application that provides a sort of ‘middleman service’ and as such if as a product Downstream failed to make the users’ viewing experience simpler and more ordered, then Downstream will have completely failed in its intended purpose. As for commercialisation, after release Downstream could potentially offer discounts on specific streaming platforms through partnerships or offer an upgraded premium version that removes ads or  allows for a  larger library compared to that  of its  free counterpart. But  the  intention of Downstream as an application is less about profit and more to  provide a service and plug a  perceived gap for consumers, and so while there are future options for commercialisation depending on the app’s popularity, profiting is not the overall goal for Downstream’s development.
     </p>
