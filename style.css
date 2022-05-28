@@ -1,3 +1,12 @@
+.navdesign {
+  border-top: inset #2DA1FB 5px;
+  border-left: inset #2DA1FB 5px;
+  border-bottom: inset #2DA1FB 5px;
+  background-color: #9ED2FA;
+  text-align: center;
+  padding: 10px;
+}
+
 .introtitle {
 
   text-align: center;
