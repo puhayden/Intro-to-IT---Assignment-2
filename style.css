@@ -1,12 +1,88 @@
-.introtitle {
 
+
+.projleft {
+
+  text-align: center;
+  display:inline-block;
+  position: relative;
+  left: 400px;
+  top: 50px;
+  height: 50px;
+}
+
+.projright {
+
+  text-align: center;
+  display:inline-block;
+  position: relative;
+  left: 500px;
+  top: 50px;
+}
+
+.projmain {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 50px;
+  border:inset #33ACD8 8px;
+  background-color: white;
+  padding: 10px;
+
+
+  font-family: Tahoma, Helvetica, sans-serif;
+
+}
+
+
+
+.projtitle {
   text-align: center;
   margin-top: 10px;
   margin-left: auto;
   margin-right: auto;
+  width: 300px;
+  border: ridge #78D4F5 10px;
+  background-color: white;
+  padding: 5px;
+}
+
+.projbackground {
+  opacity: 1;
+  background-size: 23px 23px;
+  background-image: repeating-linear-gradient(45deg, #2cd0f1 0, #2cd0f1 2.3000000000000003px, #f8fcff 0, #f8fcff 50%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  min-width: 50%;
+  min-height: 50%;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+  border-image: linear-gradient(#226ac3, #2dfdf9) 30;
+}
+
+
+.navdesign {
+  border-top: inset #2DA1FB 5px;
+  border-left: inset #2DA1FB 5px;
+  border-bottom: inset #2DA1FB 5px;
+  background-color: #9ED2FA;
+  text-align: center;
+  padding: 10px;
+}
+
+.introtitle {
+
+  text-align: center;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
   width: 550px;
-  border: ridge #4B4B4B 10px;
-  background-color: #CBCFCE;
+  border: ridge #33ACD8 10px;
+  background-color: white;
   padding: 5px;
 }
 
@@ -16,23 +92,25 @@
   margin-right: auto;
   margin-top: 5px;
   margin-left: auto;
-  width: 300px;
-  border: ridge #4B4B4B 10px;
-  background-color: #CBCFCE;
-  padding: 5px;
+  width: 250px;
+  border:inset #33ACD8 8px;
+  background-color: white;
+  padding: 10px;
   font-family: Tahoma, Helvetica, sans-serif;
+  margin-bottom: 50px;
 }
 
 .intromain2 {
   text-align: center;
   margin-right: auto;
   margin-left: auto;
-  position: relative;
-  width: 300px;
-  border: ridge #4B4B4B 10px;
-  background-color: #CBCFCE;
-  padding: 5px;
+  width: 250px;
+  border: ridge #33ACD8 8px;
+  background-color: white;
+  padding: 10px;
   font-family: Tahoma, Helvetica, sans-serif;
+  margin-top: 5px;
+  margin-bottom: 50px;
 }
 
 .gallary {
