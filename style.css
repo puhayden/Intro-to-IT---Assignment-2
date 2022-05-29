@@ -6,8 +6,8 @@ left: 0;
 right: 0;
 top: 0;
 bottom: 0;
-border-left: 100px solid transparent;
-border-right: 100px solid transparent;
+border-left: 50px solid transparent;
+border-right: 50px solid transparent;
 border-image: linear-gradient(#226ac3, #2dfdf9) 30;}
 
 .border {
@@ -15,8 +15,8 @@ border-image: linear-gradient(#226ac3, #2dfdf9) 30;}
   left: 0;
   right: 0;
   top: 0;
-  border-left: 100px solid transparent;
-  border-right: 100px solid transparent;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
   border-image: linear-gradient(#226ac3, #2dfdf9) 30;
 
 }
